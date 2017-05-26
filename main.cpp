@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 #include <cstdlib>
 
@@ -44,3 +45,16 @@ int main(int argc, char** argv) {
     return 0;
 }
 
+=======
+#include "mainwindow.h"
+#include <QApplication>
+
+int main(int argc, char *argv[])
+{
+    QApplication a(argc, argv);
+    MainWindow w;
+    w.show();
+
+    return a.exec();
+}
+>>>>>>> 512af73275f59be7369010c95b1b853effb48582
